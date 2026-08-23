@@ -1,0 +1,61 @@
+.sidebar{
+    width:260px;
+    background:#202123;
+    color:white;
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px;
+}
+
+.logo{
+    font-size:24px;
+    margin-bottom:30px;
+}
+
+.new-chat-btn{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    border:none;
+
+    background:#4F46E5;
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    margin-bottom:25px;
+}
+
+.new-chat-btn:hover{
+    background:#4338CA;
+}
+
+.history{
+    flex:1;
+}
+
+.history h3{
+    margin-bottom:15px;
+}
+
+.history-item{
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:10px;
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.history-item:hover{
+    background:#343541;
+}
