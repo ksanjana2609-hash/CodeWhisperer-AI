@@ -32,7 +32,7 @@ function Home() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/ask",
+        "https://codewhisperer-ai.onrender.com/ask",
         {
           question: question,
           mode: mode,
@@ -123,7 +123,7 @@ function Home() {
 
   try {
     const response = await axios.post(
-      "http://127.0.0.1:8000/upload",
+      "https://codewhisperer-ai.onrender.com/upload",
       formData,
       {
         headers: {
