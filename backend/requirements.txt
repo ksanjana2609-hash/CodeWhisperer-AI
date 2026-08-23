@@ -1,8 +1,4 @@
 fastapi
 uvicorn
-python-dotenv
-pydantic
-langchain
-langchain-core
-langchain-google-genai
-google-generativeai
+google-genai
+python-multipart
