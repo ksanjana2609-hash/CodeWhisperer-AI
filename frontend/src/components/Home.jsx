@@ -123,7 +123,7 @@ function Home() {
 
   try {
     const response = await axios.post(
-      "https://codewhisperer-ai.onrender.com/ask",
+      "https://codewhisperer-ai.onrender.com/upload",
       formData,
     );
 
