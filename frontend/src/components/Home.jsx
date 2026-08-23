@@ -125,11 +125,6 @@ function Home() {
     const response = await axios.post(
       "https://codewhisperer-ai.onrender.com/ask",
       formData,
-      {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      }
     );
 
     const userMessage = {
